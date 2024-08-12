@@ -18,7 +18,7 @@ int contarDigitos(int n, int cantDigitos){
 }
 
 int main(){
-    int n = 22005;
+    unsigned int n = 22005;
     int cantDigitos = 5;
 
     int res = contarDigitos(n, cantDigitos);
